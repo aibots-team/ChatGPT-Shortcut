@@ -109,7 +109,7 @@ function PromptPage({ prompt }) {
               </Typography.Paragraph>{" "}
               <ShareButtons shareUrl={url} title={`${title}: ${remark}`} popOver={true} />
               {["zh"].includes(currentLanguage) && (
-                <div className="wwads-cn wwads-horizontal wwads-sticky" data-id="256" style={{ maxWidth: '350px' }}></div>
+                <div className="wwads-cn wwads-horizontal" data-id="256" style={{ maxWidth: '350px' }}></div>
               )}
               <Waline {...walineOptions} />
             </Card>
