@@ -428,7 +428,7 @@ function ShowcaseCards({ isDescription }) {
   }, []);
 
   const filteredUsers = useFilteredUsers();
-const { i18n } = useDocusaurusContext();
+  const { i18n } = useDocusaurusContext();
   const currentLanguage = i18n.currentLocale.split("-")[0];
   if (filteredUsers.length === 0) {
     return (
@@ -440,10 +440,9 @@ const { i18n } = useDocusaurusContext();
             </Translate>
           </Heading>
           <SearchBar />
-          
-                {["zh"].includes(currentLanguage) && (
-                  <div className="wwads-cn wwads-vertical wwads-sticky" data-id="256" style={{ maxWidth: '180px' }}></div>
-                )}
+					{["zh"].includes(currentLanguage) && (
+             <div className="wwads-cn wwads-vertical wwads-sticky" data-id="256" style={{ maxWidth: '180px' }}></div>
+          )}
         </div>
       </section>
     );
