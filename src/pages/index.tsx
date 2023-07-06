@@ -440,8 +440,8 @@ function ShowcaseCards({ isDescription }) {
             </Translate>
           </Heading>
           <SearchBar />
-					{["zh"].includes(currentLanguage) && (
-             <div className="wwads-cn wwads-vertical wwads-sticky" data-id="256" style={{ maxWidth: '180px' }}></div>
+	  {["zh"].includes(currentLanguage) && (
+            <div className="wwads-cn wwads-horizontal" data-id="256" style={{ maxWidth: '350px' }}></div>
           )}
         </div>
       </section>
