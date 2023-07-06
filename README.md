@@ -1,7 +1,7 @@
 <h1 align="center">
 ⚡️AI Short
 </h1>
-<p align="center">
+<p align="center"> 
     <a href="./README-en.md">English</a> | 中文 | <a href="./README-ja.md">日本語</a> | <a href="./README-ko.md">한국어</a>
 </p>
 <p align="center">
