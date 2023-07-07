@@ -478,9 +478,6 @@ function ShowcaseCards({ isDescription }) {
                     onLove={setUserLoves}
                   />
                 ))}
-                {["zh"].includes(currentLanguage) && (
-                  <div className="wwads-cn wwads-vertical wwads-sticky" data-id="256" style={{ maxWidth: '180px' }}></div>
-                )}
               </ul>
             </div>
           </div>
